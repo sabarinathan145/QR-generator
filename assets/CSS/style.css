@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 a{
   text-transform: uppercase;
-
 }
 .bxl-flutter:before {
   color: black;
@@ -28,7 +27,7 @@ body {
   }
 
   #car{
-    height: 25em;
+    height: 28em;
     max-width: 26rem;
     margin-top: 33px;
     padding: 1em;
@@ -43,7 +42,8 @@ body {
     padding-bottom: 1.5em;
   }
   #card-body{
-    padding: 0px 8em 0em 7em;
+    padding: 0px 4em 0em 7em;
+
   }
 
 
@@ -558,7 +558,7 @@ body {
   }
 
 
-  @media (min-width: 320px) and (max-width: 400px) {
+  @media (min-width: 310px) and (max-width: 400px) {
     h1 {
       padding-top: 0.5em;
       font-size: 1.7em;
@@ -570,8 +570,8 @@ body {
       border-radius: 0.5em;
     }
     img {
-      padding-left: 2.4em;
-      padding-top: 2em;
+    
+      padding: 2em 2.4em 2em 2em;
   }
 
   .para{
