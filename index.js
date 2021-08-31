@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 5000;
+require("dotenv/config");
 const bp = require("body-parser");
 const qr = require("qrcode");
 const path = require('path');
@@ -27,4 +27,6 @@ app.use('/css', express.static(path.resolve(__dirname,"assets/CSS")))
 app.use('/img', express.static(path.resolve(__dirname,"assets/img")))
 app.use('/js', express.static(path.resolve(__dirname,"assets/js")))
 
-app.listen(port, () => console.log("Server at 5000"));
+app.listen(process.env.PORT || 5000  , ()=> {
+    console.log("Server at 5000"); 
+  });
